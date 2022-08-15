@@ -1,0 +1,12 @@
+{
+  "name": "awesome-books",
+  "version": "1.0.0",
+  "description": "The project is inspired by  Cindy Shin in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)\r For this conference website, I implemented Html, JavaScript And Css that includes the project details in mobile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
