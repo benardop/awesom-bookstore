@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Document</title>
+</head>
+    <body>
+        <nav>
+            <div class="logo">Awesome Books</div>
+            <ul class="links">
+                <li class="nav-link" id="list-link">List</li>
+                <li class="nav-link">&#124;</li>
+                <li class="nav-link" id="add-new-link">Add New</li>
+                <li class="nav-link">&#124;</li>
+                <li class="nav-link" id="contact-link">Contact</li>
+            </ul>
+        </nav>
+        <div class="main-container">
+            <div class="date"></div>
+            <section class="list">
+                <div class="header">
+                    <h2>All Awesome books</h2>
+                </div>
+                <div class="book-list" id="book-list"></div>
+            </section>
+            <section class="add-book">
+                <div class="book">
+                    <p class="add-book-title">Add new Book</p>
+                    <input type="text" name="book-title" class="book-title" placeholder="Title">
+                    <input type="text" name="author" class="author" placeholder="Author">
+                </div>
+                <div class="button-container">
+                    <button type="button" class="add-button">Add</button>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="contact-container">
+                    <div class="contact-header">
+                      Contact Information
+                    </div>
+                    <div class="contact-body">
+                      <p>Do you have any questions or you just want to know more, You can reach out to us!</p>
+                      <ul class="contact-list">
+                        <li class="contact-list-item">Our email: mail@gmail.com</li>
+                        <li class="contact-list-item">Our phone number: 001166678443</li>
+                        <li class="contact-list-item">Our address: Street Number, 000221 City, Country</li>
+                      </ul>
+                    </div>
+                  </div>
+            </section>
+        </div>
+        <footer>
+            Copyright Benard....
+        </footer>
+        <script type="module" src="./assets/js/index.js"></script>
+        <script type="module" src="./assets/js/currentDate.js"></script>
+        <script type="module" src="./assets/js/navLink.js"></script>
+    </body>
+</html>
