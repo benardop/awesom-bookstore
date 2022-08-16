@@ -12,7 +12,7 @@ For this awesome-books, I implemented Html, JavaScript And Css that includes the
 - Linter
 
 ## Live Demo
-[Live Demo Link](https://benardop.github.io/awesome-books/)
+[Live Demo Link](https://benardop.github.io/awesom-bookstore/)
 
 
 Please get your browser update.
