@@ -1,76 +1,77 @@
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    min-height: 100vh;
-    font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    border: 2px solid #000;
-    margin: 5px;
-    padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 2px solid #000;
+  margin: 5px;
+  padding: 8px;
 }
+
+/* nav .logo {
+  align-items: flex-start;
+} */
 
 nav .logo {
-    align-items: flex-start;
-}
-
-.logo {
-    align-self: center;
-    font-size: 20px;
-    font-weight: bold;
+  align-items: flex-start;
+  align-self: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .links {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    gap: 2em;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 2em;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header h2 {
-    align-self: center;
+  align-self: center;
 }
 
 .book-list {
-    border: 2px solid #000;
-    margin-bottom: 35px;
+  border: 2px solid #000;
+  margin-bottom: 35px;
 }
 
 .date {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .add-book {
-    display: none;
-    height: 80vh;
+  display: none;
+  height: 80vh;
 }
 
 .add-book-title {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .author {
-    width: 60%;
-    padding: 5px;
-    margin: 5px;
-  }
+  width: 60%;
+  padding: 5px;
+  margin: 5px;
+}
 
 .nav-link:nth-child(odd) {
-    cursor: pointer;
-    padding: 5px;
+  cursor: pointer;
+  padding: 5px;
 }
 
 .nav-link:hover {
@@ -79,85 +80,78 @@ nav .logo {
   color: blue;
 }
 
-  .remove-button {
-    margin: 10px;
-    border: 2px solid black;
-    box-shadow: 5px 5px 2px -1px rgba(0, 0, 0, 0.70);
+.remove-button {
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
-  
 
 .book-title {
-    width: 60%;
-    padding: 5px;
-    margin: 5px;
+  width: 60%;
+  padding: 5px;
+  margin: 5px;
 }
 
 .add-button {
-    margin: 10px;
-    border: 1.5px solid black;
-    box-shadow: 5px 5px 2px -1px rgba(0, 0, 0, 0.70);
-  }
+  margin: 10px;
+  border: 1.5px solid black;
+  box-shadow: 5px 5px 2px -1px rgba(0, 0, 0, 0.7);
+}
 
 .book {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .book-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .button-container {
-    display: flex;
-    width: 60%;
-    justify-content: flex-end;
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
 }
 
 .book-container:nth-child(odd) {
-    background-color: lightgray;
-  }
-
-.add-button {
-    margin: 10px;
-    border: 2px solid black;
+  background-color: lightgray;
 }
 
 .contact {
-    display: none;
-    height: 70vh;
+  display: none;
+  height: 70vh;
 }
 
 .contact-container {
-    margin-top: 10px;
-    padding-left: 20%;
-    padding-right: 20%;
+  margin-top: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .contact-header {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .contact-list {
-    margin: 10px;
-  }
-  
-  .contact-list-item {
-    list-style: circle;
-    margin: 15px;
-  }
-  
-  footer {
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid black;
-    font-weight: bold;
+  margin: 10px;
 }
-  
+
+.contact-list-item {
+  list-style: circle;
+  margin: 15px;
+}
+
+footer {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid black;
+  font-weight: bold;
+}
