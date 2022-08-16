@@ -1,6 +1,6 @@
 const displayDate = () => {
   const dateTime = new Date();
-  document.getElementsByClassName('date').innerHTML = dateTime;
+  return dateTime;
 };
 
-export default displayDate();
+export default displayDate;

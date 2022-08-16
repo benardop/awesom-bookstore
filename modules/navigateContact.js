@@ -1,10 +1,10 @@
-const navigateAddNew = (list, sectionList, addNew, sectionAddBook, contact, sectionContact) => {
+const navigateContact = (list, sectionList, addNew, sectionAddBook, contact, sectionContact) => {
   sectionList.style.display = 'none';
   list.className = 'nav-link';
-  sectionAddBook.style.display = 'block';
+  sectionAddBook.style.display = 'none';
   addNew.className = 'nav-link active';
-  sectionContact.style.display = 'none';
-  contact.className = 'nav-link';
+  sectionContact.style.display = 'block';
+  contact.className = 'nav-link active';
 };
 
-export default navigateAddNew;
+export default navigateContact;
