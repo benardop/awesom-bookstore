@@ -15,10 +15,6 @@ nav {
   padding: 5px;
 }
 
-/* nav .logo {
-  align-items: flex-start;
-} */
-
 nav .logo {
   align-items: flex-start;
   align-self: center;
