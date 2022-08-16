@@ -15,7 +15,7 @@ const sectionList = document.getElementsByClassName('list')[0];
 const sectionAddBook = document.getElementsByClassName('add-book')[0];
 const sectionContact = document.getElementsByClassName('contact')[0];
 
-// Add click-event for the navigation links
+// Navigation links on-click event listeners
 list.onclick = () => {
   navigateList(list, sectionList, addNew, sectionAddBook, contact, sectionContact);
 };
@@ -29,28 +29,12 @@ contact.onclick = () => {
 };
 
 // get time and date
-document.getElementsByClassName('date').innetHTML = displayDate;
+
+setInterval(() => {
+  document.getElementById('date').innerHTML = displayDate();
+}, 1000);
 
 // Call function events
-window.onclick = (event) => {
-  if (event.target.className === 'add-button') {
-    addBook();
-  } else if (event.target.className === 'remove-button') {
-    removeBook(event);
-  }
-};
-
-window.onload = () => {
-  let bookList = window.localStorage.getItem('bookList');
-
-  if ((bookList === null) || (bookList === undefined)) {
-    bookList = [];
-    updateStorage(bookList);
-  } else {
-    loadFromStorage();
-  }
-};
-
 window.onclick = (event) => {
   if (event.target.className === 'add-button') {
     addBook();
