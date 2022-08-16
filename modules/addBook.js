@@ -1,3 +1,7 @@
+import updateStorage from './updateStorage.js';
+import storageAvailable from './storageAvailable.js';
+import appendToBook from './appendToBook.js';
+
 const addBook = () => {
     let bookList = [];
   
