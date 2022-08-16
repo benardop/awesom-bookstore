@@ -10,9 +10,9 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  border: 2px solid #000;
+  border: 1px solid #000;
   margin: 5px;
-  padding: 8px;
+  padding: 5px;
 }
 
 /* nav .logo {
@@ -44,13 +44,15 @@ nav .logo {
 }
 
 .book-list {
-  border: 2px solid #000;
-  margin-bottom: 35px;
+  border: 1px solid #000;
+  margin: 0px 2px 35px 2px;
 }
 
 .date {
   display: flex;
+  font-size: 0.9rem;
   justify-content: flex-end;
+  padding: 0.5rem;
 }
 
 .add-book {
@@ -120,7 +122,7 @@ nav .logo {
 }
 
 .book-container:nth-child(odd) {
-  background-color: lightgray;
+  background-color: bisque;
 }
 
 .contact {
@@ -146,12 +148,13 @@ nav .logo {
 
 .contact-list-item {
   list-style: circle;
-  margin: 15px;
+  margin: 12px;
 }
 
 footer {
   margin: 5px;
   padding: 5px;
-  border: 2px solid black;
+  border: 1px solid black;
   font-weight: bold;
+  background-color: bisque;
 }
