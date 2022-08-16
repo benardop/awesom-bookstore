@@ -1,6 +1,6 @@
-import storageAvailable from './storageAvailable.js';
 import updateStorage from './updateStorage.js';
 import populateBook from './populateBook.js';
+import storageAvailable from './storageAvailable.js';
 
 const removeBook = (event) => {
   let bookList = [];
