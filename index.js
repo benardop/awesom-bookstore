@@ -5,7 +5,7 @@ import navigateList from './modules/navigateList.js';
 import navigateAddNew from './modules/navigateAddNew.js';
 import updateStorage from './modules/updateStorage.js';
 import removeBook from './modules/removeBook.js';
-import { DateTime } from './modules/luxon.js';
+import displayDate from './modules/displayDate.js';
 
 const list = document.getElementById('list-link');
 const addNew = document.getElementById('add-new-link');
@@ -29,7 +29,7 @@ contact.onclick = () => {
 };
 
 // get time and date
-document.getElementsByClassName('date')[0].innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_FULL);
+document.getElementsByClassName('date').innetHTML = displayDate;
 
 // Call function events
 window.onclick = (event) => {
@@ -51,20 +51,21 @@ window.onload = () => {
   }
 };
 
-const BookItem = new Book();
-
-window.onclick = function (event) {
+window.onclick = (event) => {
   if (event.target.className === 'add-button') {
-    BookItem.addBook();
+    addBook();
   } else if (event.target.className === 'remove-button') {
-    BookItem.removeBook(event);
+    removeBook(event);
   }
 };
 
-window.onload = function () {
-  if (JSON.parse(localStorage.getItem('bookList')) === null) {
-    BookItem.updateStorage();
+window.onload = () => {
+  let bookList = window.localStorage.getItem('bookList');
+
+  if ((bookList === null) || (bookList === undefined)) {
+    bookList = [];
+    updateStorage(bookList);
   } else {
-    BookItem.loadFromStorage();
+    loadFromStorage();
   }
 };
