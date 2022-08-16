@@ -1,7 +1,7 @@
  ## Conference Website 
 
-The project is inspired by  Cindy Shin in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-For this conference website, I implemented Html, JavaScript And Css that includes the project details in mobile.
+The project is inspired by a mock up to create an interactice book store using ES-6 modules
+For this awesome-books, I implemented Html, JavaScript And Css that includes the project details in mobile.
 
  
 ## Built With the following
@@ -12,7 +12,7 @@ For this conference website, I implemented Html, JavaScript And Css that include
 - Linter
 
 ## Live Demo
-[Live Demo Link](https://benardop.github.io/conference-project/)
+[Live Demo Link](https://benardop.github.io/awesome-books/)
 
 
 Please get your browser update.
