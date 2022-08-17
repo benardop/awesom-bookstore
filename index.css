@@ -19,7 +19,7 @@ body {
   background-color: aliceblue;
 }
 
-/**Book List section**/
+/**  Book List section  **/
 .list {
   display: block;
   text-align: center;
@@ -71,7 +71,7 @@ button {
 
 input {
   height: 30px;
-  margin: 5px 0;
+  margin: 3px 0;
   border: 3px solid black;
 }
 
@@ -82,7 +82,7 @@ input {
   margin-top: 22px;
 }
 
-/**Add new Book**/
+/**  Add new Book  **/
 .addNewBook {
   display: none;
   width: 80%;
@@ -105,15 +105,15 @@ input {
 }
 
 .book-input input {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 #addButton {
   padding: 0.5rem;
   margin-left: auto;
-} 
+}
 
-/**Contact Section**/
+/**  Contact Section  **/
 .contact {
   display: none;
   flex-direction: column;
@@ -130,7 +130,8 @@ input {
   margin-bottom: 2rem;
 }
 
-.contact p, ul {
+.contact p,
+ul {
   margin-bottom: 2rem;
   line-height: 1.2rem;
   text-align: left;
@@ -159,11 +160,11 @@ footer img {
   color: #fff;
 }
 
-input {
+/* input {
   height: 30px;
-}
+} */
 
-/*******End of CSS********/
+/*******  End of CSS  ********/
 nav {
   display: flex;
   justify-content: space-between;
@@ -246,8 +247,6 @@ nav .logo {
   box-shadow: 5px 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
 
-
-
 .add-button {
   margin: 10px;
   border: 1.5px solid black;
@@ -261,5 +260,3 @@ nav .logo {
   align-items: center;
   margin-top: 10px;
 }
-
-
