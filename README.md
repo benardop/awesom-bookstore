@@ -22,7 +22,7 @@ Run the command below from the Terminal:
 
       git clone <URL> ' https://github.com/benardop/awesom-bookstore.git' in your terminal
 
-	  cd conference-project
+	  cd awesome-books
 
 
 ## Authors
