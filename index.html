@@ -7,53 +7,52 @@
     <link rel="stylesheet" href="./index.css">
     <title>Awesome Books With es-6</title>
 </head>
-    <body>
-        <nav>
-            <div class="logo">Awesome Books</div>
-            <ul class="links">
-                <li class="nav-link" id="list-link">List</li>
-                <li class="nav-link">&#124;</li>
-                <li class="nav-link" id="add-new-link">Add New</li>
-                <li class="nav-link">&#124;</li>
-                <li class="nav-link" id="contact-link">Contact</li>
+  <body>
+      <header>
+          <nav>
+             <div class="logo">Awesome Books</div>
+               <ul class="links">
+                  <li class="nav-link" id="list-link">List</li>
+                  <li class="nav-link">&#124;</li>
+                  <li class="nav-link" id="add-new-link">Add New</li>
+                  <li class="nav-link">&#124;</li>
+                  <li class="nav-link" id="contact-link">Contact</li>
+                </ul>
+            </nav>
+      </header>
+        <div class="date" id="date"></div>                
+        <section class="list" id="list">
+              <h2>List Of Awesome Books</h2>
+           <div class="book-collection" id="book-collection"></div>
+         </section>
+        <section class="addNewBook" id="addNewBook">
+            <h2>Add new Book</h2>
+            <div class="book-input">
+                <label for="book-title"></label>
+                <input type="text" name="book-title" id="book-title" placeholder="Title">
+                <label for="book-author"></label>
+                <input type="text" name="book-author" id="book-author" placeholder="Author">
+                <button type="button" class="add-button" id="addButton">Add</button>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+           <h2>Contact Information</h2>
+            <p>If you have any questions or you just want to know more, You can reach out to us!</p>
+            <ul class="contact-list">
+              <li class="contact-list-item">Our email: mail@gmail.com</li>
+              <li class="contact-list-item">Our phone number: 001166678443</li>
+              <li class="contact-list-item">Our address: Street Number, 000221 City, Country</li>
             </ul>
-        </nav>
-        <div class="main-container">
-            <div class="date" id="date"></div>
-            <section class="list">
-                <div class="header">
-                    <h2>All Awesome books</h2>
-                </div>
-                <div class="book-list" id="book-list"></div>
-            </section>
-            <section class="add-book">
-                <div class="book">
-                    <p class="add-book-title">Add new Book</p>
-                    <input type="text" name="book-title" class="book-title" placeholder="Title">
-                    <input type="text" name="author" class="author" placeholder="Author">
-                </div>
-                <div class="button-container">
-                    <button type="button" class="add-button">Add</button>
-                </div>
-            </section>
-            <section class="contact">
-                <div class="contact-container">
-                    <div class="contact-header">
-                      Contact Information
-                    </div>
-                    <div class="contact-body">
-                      <p>Do you have any questions or you just want to know more, You can reach out to us!</p>
-                      <ul class="contact-list">
-                        <li class="contact-list-item">Our email: mail@gmail.com</li>
-                        <li class="contact-list-item">Our phone number: 001166678443</li>
-                        <li class="contact-list-item">Our address: Street Number, 000221 City, Country</li>
-                      </ul>
-                    </div>
-                  </div>
-            </section>
-        </div>
+        </section>
         <footer>
-            Copyright Benard....
+            <span>@Copyright 2022</span>
+            <span>
+                <a href="https://github.com/benardop">benardop</a>
+            </span>
+            <span>&</span>
+            <span>
+                <img src="./assets/image/github.svg" alt="GitHub Logo">
+            </span>
         </footer>
         <script type="module" src="./index.js"></script>
     </body>
