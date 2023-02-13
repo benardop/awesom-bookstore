@@ -11,8 +11,11 @@ For this awesome-books, I implemented Html, JavaScript And Css that includes the
 - Javascript
 - Linter
 
+Website Mockup 📱 💻 🖥️
+![app_screenshot](https://user-images.githubusercontent.com/620415/218550076-847e64c9-6314-4d36-904f-c0eff7ece9bf.PNG)
+
 ## Live Demo
-[Live Demo Link](https://benardop.github.io/awesom-bookstore/)
+[Live Demo Link](https://benardop.github.io/awesom-bookstore/)👈
 
 
 Please get your browser update.
