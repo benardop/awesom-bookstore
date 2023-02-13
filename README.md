@@ -1,7 +1,6 @@
  ## Conference Website 
 
-The project is inspired by a mock up to create an interactice book store using ES-6 modules
-For this awesome-books, I implemented Html, JavaScript And Css that includes the project details in mobile.
+This is an educational project to make a simple website that displays a list of books and allows you to add and remove books from that list. The goal is to make it more organized by using modules and practice the ES6 syntax. Built with HTML, CSS and JavaScript.
 
  
 ## Built With the following
